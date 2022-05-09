@@ -1,0 +1,17 @@
+a img { display: none; }
+
+a:hover img { display: block; }
+
+a img {
+  width: 430px;
+  height: 350px;
+}
+
+a img{
+opacity: 50%;
+}
+
+a img:hover {
+opacity: 100%;
+transition: opacity 2s.
+}
